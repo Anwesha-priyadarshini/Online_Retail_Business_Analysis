@@ -83,27 +83,7 @@ The AI outputs were reviewed against the underlying analytical results to ensure
 
 Data → Python EDA → SQL Analysis → Power BI → AI Interpretation → Business Recommendations
 
-## Business Recommendations
 
-Based on the analysis, the following actions could help improve business performance:
-
-1. **Focus on customer retention**
-   - Target one-time customers with personalized offers, email campaigns, and loyalty incentives.
-
-2. **Prepare for seasonal demand**
-   - Increase inventory and marketing efforts ahead of the November/holiday sales period.
-
-3. **Protect high-value customers**
-   - Develop loyalty programs and personalized experiences for customers with consistently high purchase value.
-
-4. **Explore high-value international markets**
-   - Investigate markets with high average order values, such as the Netherlands, for targeted expansion.
-
-5. **Prioritize high-performing products**
-   - Maintain adequate inventory for top-revenue products and use them in promotional and seasonal campaigns.
-
-6. **Monitor business performance regularly**
-   - Use the Power BI dashboard to track revenue, orders, customers, product performance, and customer retention over time.
 
 ## Business Recommendations
 
