@@ -44,7 +44,7 @@ Insight: The UK is the primary revenue market and should remain a key focus for 
 
 ### 3. Strong customer repeat rate
 
-Approximately "65.27% of customers were repeat customers", while 34.73% purchased only once.
+Approximately **65.27% of customers were repeat customers**, while 34.73% purchased only once.
 
 Insight: The business demonstrates strong customer retention, while the one-time customer segment represents an opportunity for targeted retention campaigns.
 
@@ -174,8 +174,8 @@ Source: UCI Machine Learning Repository
 | `dashboard.png` | Preview image of the Power BI dashboard |
 | `README.md` | Project documentation |
 
-> Note: The original Excel dataset and local SQLite database are excluded from the repository because of file size and reproducibility considerations.
-
+> **Note:** The original Excel dataset and local SQLite database are excluded from the repository. The analysis uses the cleaned `cleaned_sales.csv` file, while the SQLite database can be recreated locally from the cleaned data.
+> 
 ## Skills Demonstrated
 
 - Data Cleaning & Preparation
