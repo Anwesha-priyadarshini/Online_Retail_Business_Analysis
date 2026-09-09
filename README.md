@@ -32,7 +32,7 @@ The analysis combines **Python, SQL, and Power BI** to transform raw transaction
 
 November 2011 was the strongest month, generating approximately **£1.51M in revenue**.
 
-**Insight:** Sales increased significantly toward the end of the year, suggesting strong seasonal demand.
+Insight: Sales increased significantly toward the end of the year, suggesting strong seasonal demand.
 
 > Note: December 2011 contains data only through December 9, so it should not be compared directly with a complete month.
 
@@ -40,13 +40,13 @@ November 2011 was the strongest month, generating approximately **£1.51M in rev
 
 The UK generated approximately **£8.53M in revenue**, making it the largest market by a wide margin.
 
-**Insight:** The UK is the primary revenue market and should remain a key focus for inventory planning and customer retention.
+Insight: The UK is the primary revenue market and should remain a key focus for inventory planning and customer retention.
 
 ### 3. Strong customer repeat rate
 
-Approximately **65.27% of customers were repeat customers**, while 34.73% purchased only once.
+Approximately "65.27% of customers were repeat customers", while 34.73% purchased only once.
 
-**Insight:** The business demonstrates strong customer retention, while the one-time customer segment represents an opportunity for targeted retention campaigns.
+Insight: The business demonstrates strong customer retention, while the one-time customer segment represents an opportunity for targeted retention campaigns.
 
 ### 4. Revenue concentration among high-value customers
 
@@ -65,6 +65,23 @@ The Netherlands recorded an average order value of approximately **£3,053**, co
 A small group of products generated a substantial share of product revenue, with **REGENCY CAKESTAND 3 TIER** ranking as the highest-revenue product.
 
 **Insight:** High-performing products can be prioritized for inventory availability, promotions, and seasonal merchandising.
+
+## AI-Assisted Business Insights
+
+AI was used as a business analysis assistant to interpret validated findings from Python, SQL, and Power BI.
+
+The AI-assisted analysis helped:
+
+- Interpret key business trends and customer behavior.
+- Identify potential business opportunities.
+- Translate analytical findings into actionable recommendations.
+- Support decision-making based on validated data.
+
+The AI outputs were reviewed against the underlying analytical results to ensure that recommendations were supported by the data.
+
+**Workflow:**
+
+Data → Python EDA → SQL Analysis → Power BI → AI Interpretation → Business Recommendations
 
 ## Business Recommendations
 
@@ -88,7 +105,28 @@ Based on the analysis, the following actions could help improve business perform
 6. **Monitor business performance regularly**
    - Use the Power BI dashboard to track revenue, orders, customers, product performance, and customer retention over time.
 
-   ## Project Workflow
+## Business Recommendations
+
+Based on the analysis, the following actions could help improve business performance:
+
+1. **Focus on customer retention**
+   - Target one-time customers with personalized offers, email campaigns, and loyalty incentives.
+
+2. **Prepare for seasonal demand**
+   - Increase inventory and marketing efforts ahead of the November/holiday sales period.
+
+3. **Protect high-value customers**
+   - Develop loyalty programs and personalized experiences for customers with consistently high purchase value.
+
+4. **Explore high-value international markets**
+   - Investigate markets with high average order values, such as the Netherlands, for targeted expansion.
+
+5. **Prioritize high-performing products**
+   - Maintain adequate inventory for top-revenue products and use them in promotional and seasonal campaigns.
+
+6. **Monitor business performance regularly**
+   - Use the Power BI dashboard to track revenue, orders, customers, product performance, and customer retention over time.
+## Project Workflow
 
 The project followed these main stages:
 
@@ -118,8 +156,7 @@ The project followed these main stages:
 
 6. **Business Insights**
    - Translated analytical findings into business recommendations related to customer retention, seasonal planning, product performance, and international opportunities.
-
-   ## Power BI Dashboard
+## Power BI Dashboard
 
    ![Online Retail Business Analysis Dashboard](dashboard.png)
 
@@ -151,11 +188,13 @@ Source: UCI Machine Learning Repository
 | File | Description |
 |---|---|
 | `Day1_EDA.ipynb` | Python data cleaning and exploratory data analysis |
-| `data/online Retail.xlsx` | Original retail transaction dataset |
+| `AI_Business_Insights.ipynb` | AI-assisted business insights and recommendations |
 | `data/cleaned_sales.csv` | Cleaned sales data used for analysis and Power BI |
-| `online_retail.db` | SQLite database used for SQL analysis |
 | `AI_Business_Analyst.pbix` | Power BI executive dashboard |
+| `dashboard.png` | Preview image of the Power BI dashboard |
 | `README.md` | Project documentation |
+
+> Note: The original Excel dataset and local SQLite database are excluded from the repository because of file size and reproducibility considerations.
 
 ## Skills Demonstrated
 
