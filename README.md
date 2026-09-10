@@ -4,15 +4,16 @@
 
 This project analyzes online retail transaction data to identify sales trends, customer behavior, product performance, and business opportunities.
 
-The analysis combines **Python, SQL, and Power BI** to transform raw transaction data into actionable business insights and an interactive executive dashboard.
+The analysis combines **Python, SQL, Power BI, and AI-assisted analysis** to transform raw transaction data into actionable business insights and an interactive executive dashboard.
 
 ### Tools & Technologies
 
-* Python — Data cleaning and exploratory data analysis
-* Pandas — Data manipulation and analysis
-* SQL — Business queries and KPI analysis
-* Power BI — Interactive dashboard and visualization
-* Excel — Source dataset
+- Python — Data cleaning and exploratory data analysis
+- Pandas — Data manipulation and analysis
+- SQL — Business queries and KPI analysis
+- Power BI — Interactive dashboard and visualization
+- Excel — Source dataset
+- AI-assisted analysis — Business interpretation and recommendations using ChatGPT
 
 ## Key Performance Indicators
 
@@ -34,7 +35,7 @@ November 2011 was the strongest month, generating approximately **£1.51M in rev
 
 Insight: Sales increased significantly toward the end of the year, suggesting strong seasonal demand.
 
-> Note: December 2011 contains data only through December 9, so it should not be compared directly with a complete month.
+> **Note:** December 2011 contains data only through December 9, so it should not be compared directly with a complete month.
 
 ### 2. The UK is the core market
 
@@ -68,6 +69,7 @@ A small group of products generated a substantial share of product revenue, with
 
 ## AI-Assisted Business Insights
 
+<<<<<<< Updated upstream
 AI was used as a business analysis assistant to interpret validated findings from Python, SQL, and Power BI.
 
 The AI-assisted analysis helped:
@@ -78,12 +80,83 @@ The AI-assisted analysis helped:
 - Support decision-making based on validated data.
 
 The AI outputs were reviewed against the underlying analytical results to ensure that recommendations were supported by the data.
+=======
+This section uses AI-assisted analysis to interpret validated business metrics and translate analytical findings into actionable business recommendations.
+
+### 1. Strong seasonal demand in November
+
+November 2011 generated the highest monthly revenue at approximately £1.51M.
+
+**Business interpretation:**  
+The business experienced strong year-end demand, suggesting a seasonal sales pattern.
+
+**Recommendation:**  
+Increase inventory readiness, marketing activity, and promotional planning ahead of the November peak.
+
+### 2. The United Kingdom is the core market
+
+The United Kingdom generated approximately £8.53M in revenue, making it the primary market.
+
+**Business interpretation:**  
+The UK represents the company's strongest and most established customer base.
+
+**Recommendation:**  
+Continue prioritizing the UK while using international markets as opportunities for controlled expansion.
+
+### 3. Strong customer retention opportunity
+
+Repeat customers account for 65.27% of identified customers, while 34.73% are one-time customers.
+
+**Business interpretation:**  
+A substantial repeat-customer base indicates good customer retention, while the one-time segment provides an opportunity for further engagement.
+
+**Recommendation:**  
+Use personalized offers, follow-up campaigns, and loyalty initiatives to convert more one-time customers into repeat buyers.
+
+### 4. High-value customers contribute significantly to revenue
+
+The top 10 customers contribute approximately 14.03% of total revenue.
+
+**Business interpretation:**  
+A relatively small group of high-value customers makes a meaningful contribution to overall sales.
+
+**Recommendation:**  
+Monitor high-value customers closely and develop retention strategies to reduce the risk of losing important accounts.
+
+### 5. International markets show high-value potential
+
+The Netherlands has an average order value of approximately £3,053, significantly higher than the UK's approximately £476.
+
+**Business interpretation:**  
+Although the Netherlands has much lower order volume than the UK, its customers generate substantially larger average orders.
+
+**Recommendation:**  
+Investigate the Netherlands market further to understand customer segments, product preferences, and opportunities for targeted expansion.
+
+### 6. Product performance can guide inventory decisions
+
+REGENCY CAKESTAND 3 TIER is the highest-revenue product in the analyzed dataset.
+
+**Business interpretation:**  
+A small number of products generate a significant amount of sales and can be important drivers of revenue.
+
+**Recommendation:**  
+Prioritize inventory availability and promotional planning for consistently high-performing products.
+
+### AI Analysis Approach
+
+The AI layer was used to translate validated analytical results into business-oriented interpretations and recommendations.
+>>>>>>> Stashed changes
 
 **Workflow:**
 
 Data → Python EDA → SQL Analysis → Power BI → AI Interpretation → Business Recommendations
 
+<<<<<<< Updated upstream
 
+=======
+AI outputs were reviewed against the underlying analytical results to avoid unsupported conclusions.
+>>>>>>> Stashed changes
 
 ## Business Recommendations
 
@@ -106,6 +179,10 @@ Based on the analysis, the following actions could help improve business perform
 
 6. **Monitor business performance regularly**
    - Use the Power BI dashboard to track revenue, orders, customers, product performance, and customer retention over time.
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ## Project Workflow
 
 The project followed these main stages:
@@ -134,11 +211,19 @@ The project followed these main stages:
    - Built an interactive executive dashboard.
    - Created KPI cards, revenue trends, product analysis, country analysis, customer analysis, and customer-type segmentation.
 
+<<<<<<< Updated upstream
 6. **Business Insights**
    - Translated analytical findings into business recommendations related to customer retention, seasonal planning, product performance, and international opportunities.
+=======
+6. **AI-Assisted Business Insights**
+   - Used ChatGPT to interpret validated analytical findings.
+   - Translated data-driven results into business-oriented recommendations.
+   - Reviewed AI-generated recommendations against the underlying analysis.
+
+>>>>>>> Stashed changes
 ## Power BI Dashboard
 
-   ![Online Retail Business Analysis Dashboard](dashboard.png)
+![Online Retail Business Analysis Dashboard](dashboard.png)
 
 The project includes an executive Power BI dashboard designed to provide a high-level view of retail business performance.
 
@@ -155,13 +240,13 @@ The dashboard includes:
 - Top 10 Customers by Revenue
 - Customer Type Distribution
 
-The dashboard helps decision-makers quickly identify sales trends, customer behavior, high-performing products, and important markets. 
+The dashboard helps decision-makers quickly identify sales trends, customer behavior, high-performing products, and important markets.
 
 ## Dataset
 
 The project uses the **UCI Online Retail dataset**, which contains transaction-level data from a UK-based online retailer between December 2010 and December 2011.
 
-Source: UCI Machine Learning Repository
+**Source:** UCI Machine Learning Repository
 
 ## Project Files
 
@@ -175,7 +260,11 @@ Source: UCI Machine Learning Repository
 | `README.md` | Project documentation |
 
 > **Note:** The original Excel dataset and local SQLite database are excluded from the repository. The analysis uses the cleaned `cleaned_sales.csv` file, while the SQLite database can be recreated locally from the cleaned data.
+<<<<<<< Updated upstream
 > 
+=======
+
+>>>>>>> Stashed changes
 ## Skills Demonstrated
 
 - Data Cleaning & Preparation
@@ -187,4 +276,9 @@ Source: UCI Machine Learning Repository
 - KPI Development
 - Customer Segmentation
 - Business Analysis
+<<<<<<< Updated upstream
 - Business Insights & Recommendations
+=======
+- AI-Assisted Business Insights
+- Business Insights & Recommendations
+>>>>>>> Stashed changes
